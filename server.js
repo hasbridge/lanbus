@@ -4,9 +4,7 @@
  * Listens for messages, and relays to all clients
  *
  */
-var net = require('net');
+var config = require('config');
 var lanbus = require('lanbus');
 
-lanbus.server.start({
-    port: 8124
-});
+lanbus.server.start(config.get('server'));

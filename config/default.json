@@ -1,0 +1,10 @@
+{
+    "server": {
+        "port": 8124,
+        "maxConnections": 20
+    },
+    "client": {
+        "host": "127.0.0.1",
+        "port": 8124
+    }
+}
